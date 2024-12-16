@@ -1,0 +1,17 @@
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\evgen\source\repos\BdLabs\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\evgen\source\repos\BdLabs\Persistence\obj\Debug\net8.0\ref\Persistence.dll

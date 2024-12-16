@@ -1,0 +1,121 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/sql-query/validate-sql": {
+      "post": {
+        "tags": [
+          "SqlQuery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SqlRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SqlRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SqlRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/sql-query/compare-sql": {
+      "post": {
+        "tags": [
+          "SqlQuery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompareSqlRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompareSqlRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompareSqlRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/task/get-task": {
+      "get": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CompareSqlRequestModel": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sqlQuery": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SqlRequestModel": {
+        "type": "object",
+        "properties": {
+          "sqlQuery": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

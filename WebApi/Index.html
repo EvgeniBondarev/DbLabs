@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Challenge Platform</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/theme/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/hint/show-hint.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px; /* Увеличиваем ширину контейнера */
+        }
+        .task-block, .combined-block {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .task-block {
+            border-right: 1px solid #ddd;
+            max-height: 100%;
+            overflow: auto;
+        }
+        .combined-block {
+            display: flex;
+            flex-direction: column;
+            max-height: 100%;
+            overflow: auto;
+        }
+        .code-block, .result-table, .expected-result {
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .result-table, .expected-result {
+            flex-grow: 1;
+            overflow: auto;
+        }
+        .table-responsive {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        /* Стилизация полос прокрутки */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 d-flex flex-column">
+				<div class="task-block flex-grow-1">
+				    <!-- Заголовок "Задача" -->
+				    <h3>Задача</h3>
+				    
+				    <!-- Описание задачи -->
+				    <p id="description">Выберите задание, чтобы увидеть его описание.</p>
+				    
+				    <!-- Разделительная линия -->
+				    <hr class="my-3">
+				    
+				    <!-- Контейнер для кнопок с выравниванием по центру -->
+				    <div class="d-flex justify-content-center overflow-auto">
+				        <!-- Кнопки с горизонтальной прокруткой -->
+				        <button class="task-button btn btn-primary m-2" data-task-id="28">1</button>
+				        <button class="task-button btn btn-primary m-2" data-task-id="29">2</button>
+				        <button class="task-button btn btn-primary m-2" data-task-id="30">3</button>
+				        
+				    </div>
+				</div>
+            </div>
+            <div class="col-md-8 d-flex flex-column">
+                <div class="combined-block flex-grow-1">
+                    <div class="code-block">
+                        <h3>SQL Редактор</h3>
+                        <textarea id="sqlScript">
+CREATE FUNCTION dbo.GetLabCount()
+RETURNS TABLE
+AS
+RETURN
+(
+	SELECT COUNT(*) AS LabCount
+	FROM Labs
+);
+GO
+SELECT * FROM dbo.GetLabCount();
+                        </textarea>
+                        <button id="run-query" class="btn btn-primary mt-3" lab-id="0" disabled>Run Query</button>
+                    </div>
+                    <div id="query-result" class="result-table table-responsive">
+                        <h4>Результат:</h4>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ProductID</th>
+                                    <th>ProductName</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>StockQuantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Smartphone</td>
+                                    <td>Электроника</td>
+                                    <td>1200</td>
+                                    <td>15</td>
+                                </tr>
+                                <!-- Дополнительные строки можно добавить здесь -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="expected-result" class="expected-result table-responsive">
+                        <h4>Ожидаемый результат:</h4>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ProductID</th>
+                                    <th>ProductName</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>StockQuantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Laptop</td>
+                                    <td>Электроника</td>
+                                    <td>1400</td>
+                                    <td>20</td>
+                                </tr>
+                                <!-- Дополнительные строки можно добавить здесь -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/sql/sql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/hint/show-hint.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/hint/sql-hint.min.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("sqlScript"), {
+            mode: "text/x-sql",
+            lineNumbers: true,
+            theme: "default",
+            extraKeys: {
+                "Tab": function(cm) {
+                    if (cm.state.completionActive) {
+                        cm.state.completionActive.widget.pick();
+                    } else {
+                        cm.showHint({ completeSingle: false });
+                    }
+                }
+            },
+            hintOptions: {
+                tables: {
+                    "Products": [
+                        "ProductID",
+                        "ProductName",
+                        "Category",
+                        "Price",
+                        "StockQuantity"
+                    ],
+                    "Orders": [
+                        "OrderID",
+                        "ProductID",
+                        "Quantity",
+                        "OrderDate",
+                        "CustomerID"
+                    ]
+                }
+            }
+        });
+
+        editor.on("inputRead", function(cm, change) {
+            if (change.text[0] !== " ") {
+                cm.showHint({ completeSingle: false });
+            }
+        });
+        
+        document.querySelectorAll('.task-button').forEach(button => {
+		    button.addEventListener('click', function () {
+		        const taskId = this.getAttribute('data-task-id');
+				document.getElementById('run-query').disabled = false;
+				document.getElementById('run-query').setAttribute('lab-id', taskId);
+		        // AJAX-запрос на сервер
+		        fetch(`https://localhost:7070/api/task/get-task?taskId=${taskId}`)
+		            .then(response => response.json())
+		            .then(data => {
+		                // Заполняем описание задачи
+                        document.getElementById('description').innerHTML = data.description;
+
+		                // Отображаем результат с помощью displayResultTables
+		                const compareResponse = {
+		                    queryData1: null, // Первая таблица данных
+		                    queryData2: data.queryData // Вторая таблица (можно изменить на другие данные, если нужно)
+		                };
+
+		                displayResultTables(compareResponse);
+		            })
+		            .catch(error => console.error('Ошибка:', error));
+		    });
+		});
+
+       document.getElementById('run-query').addEventListener('click', function () {
+		    var query = editor.getValue();
+
+		    // Отправка запроса на ValidateSqlSyntax
+		    fetch(`https://localhost:7070/api/sql-query/validate-sql?sqlQuery=${encodeURIComponent(query)}`)
+			        .then(response => response.json())
+			        .then(validateResponse => {
+			            if (validateResponse.isValid) {
+			                // Если запрос валиден, отправляем запрос на CompareSql
+			                const taskId = document.getElementById('run-query').getAttribute('lab-id'); // Замените на нужный ID задачи
+			                fetch(`https://localhost:7070/api/sql-query/compare-sql?taskId=${taskId}&sqlQuery=${encodeURIComponent(query)}`)
+			                    .then(response => response.json())
+			                    .then(compareResponse => {
+			                        // Отобразите QueryData1 и QueryData2 как таблицы
+			                        console.log(compareResponse);
+			                        displayResultTables(compareResponse);
+			                    })
+			                    .catch(error => {
+			                        console.error('Ошибка CompareSql:', error);
+			                        document.getElementById('query-result').innerHTML = `
+			                            <h4>Ошибка CompareSql:</h4>
+			                            <pre>${error.message}</pre>
+			                        `;
+			                    });
+			            } else {
+			                // Если запрос невалиден, выводим ошибку
+			                console.error('Ошибка ValidateSqlSyntax:', validateResponse.error);
+			                document.getElementById('query-result').innerHTML = `
+			                    <h4>Ошибка в SQL:</h4>
+			                    <table class="table table-bordered">
+			                        <thead>
+			                            <tr>
+			                                <th>Ошибка</th>
+			                            </tr>
+			                        </thead>
+			                        <tbody>
+			                            <tr>
+			                                <td>${validateResponse.error}</td>
+			                            </tr>
+			                        </tbody>
+			                    </table>
+			                `;
+			            }
+			        })
+			        .catch(error => {
+			            console.error('Ошибка ValidateSqlSyntax:', error);
+			            document.getElementById('query-result').innerHTML = `
+			                <h4>Ошибка ValidateSqlSyntax:</h4>
+			                <pre>${error.message}</pre>
+			            `;
+			        });
+		});
+
+		function displayResultTables(compareResponse) {
+		    const queryData1 = compareResponse.queryData1 || [];
+		    const queryData2 = compareResponse.queryData2 || [];
+
+		    const tableHeaders1 = Object.keys(queryData1[0] || {}).map(key => `<th>${key}</th>`).join('');
+		    const tableHeaders2 = Object.keys(queryData2[0] || {}).map(key => `<th>${key}</th>`).join('');
+
+		    const queryData1Rows = queryData1
+		        .map(row => `<tr>${Object.values(row).map(value => `<td>${value}</td>`).join('')}</tr>`)
+		        .join('');
+
+		    const queryData2Rows = queryData2
+		        .map(row => `<tr>${Object.values(row).map(value => `<td>${value}</td>`).join('')}</tr>`)
+		        .join('');
+
+		    document.getElementById('query-result').innerHTML = `
+		        <h4>Результат:</h4>
+		        <table class="table table-bordered">
+		            <thead>
+		                <tr>${tableHeaders1}</tr>
+		            </thead>
+		            <tbody>${queryData1Rows}</tbody>
+		        </table>
+		    `;
+
+		    document.getElementById('expected-result').innerHTML = `
+		        <h4>Ожидаемый результат:</h4>
+		        <table class="table table-bordered">
+		            <thead>
+		                <tr>${tableHeaders2}</tr>
+		            </thead>
+		            <tbody>${queryData2Rows}</tbody>
+		        </table>
+		    `;
+		}
+
+    </script>
+</body>
+</html>

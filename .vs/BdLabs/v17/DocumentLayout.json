@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\evgen\\source\\repos\\BdLabs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3613568-D33B-4F9E-AC86-0EABF91FB817}|ServerTest\\ServerTest.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\servertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3613568-D33B-4F9E-AC86-0EABF91FB817}|ServerTest\\ServerTest.csproj|solutionrelative:servertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\tcpsqlserver\\sqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|solutionrelative:tcpsqlserver\\sqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49A991C-6CA3-4B53-8A83-BE06F83D8E13}|ClientTest\\ClientTest.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\clienttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C49A991C-6CA3-4B53-8A83-BE06F83D8E13}|ClientTest\\ClientTest.csproj|solutionrelative:clienttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\sqlclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\sqlclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\SqlServerClientTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\SqlServerClientTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labcommands\\createlabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labcommands\\createlabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labcommands\\deletelabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labcommands\\deletelabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\common\\sql\\utils\\datacomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\common\\sql\\utils\\datacomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\common\\sql\\sqlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\common\\sql\\sqlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\controllers\\sqlquerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\sqlquerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\tcpsqlserver\\tcpsqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|solutionrelative:tcpsqlserver\\tcpsqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\tcpsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77459665-8622-470F-B1A1-0BB812F0916D}|TcpSqlServer\\TcpSqlServer.csproj|solutionrelative:tcpsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\taskqueries\\gettaskbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\taskqueries\\gettaskbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\taskqueries\\getalltasksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\taskqueries\\getalltasksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\taskcommands\\updatetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\taskcommands\\updatetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\taskcommands\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\taskcommands\\deletetaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\taskcommands\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\taskcommands\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\handlers\\updatetaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\handlers\\updatetaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\handlers\\gettaskbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\handlers\\gettaskbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\handlers\\deletetaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\handlers\\deletetaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\tasks\\handlers\\createtaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\tasks\\handlers\\createtaskcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labqueries\\getlabbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labqueries\\getlabbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labqueries\\getalllabsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labqueries\\getalllabsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\cqrs\\labs\\labcommands\\updatelabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\cqrs\\labs\\labcommands\\updatelabcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\common\\sql\\responsemodels\\compareresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\common\\sql\\responsemodels\\compareresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\common\\sql\\responsemodels\\sqlvalidateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\common\\sql\\responsemodels\\sqlvalidateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\application\\dto\\labdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1843A3-311D-4365-B2A0-339C71665901}|Application\\Application.csproj|solutionrelative:application\\dto\\labdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B060B5-906B-4A5B-890C-8C11B6938720}|Domain\\Domain.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\domain\\models\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B060B5-906B-4A5B-890C-8C11B6938720}|Domain\\Domain.csproj|solutionrelative:domain\\models\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B060B5-906B-4A5B-890C-8C11B6938720}|Domain\\Domain.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\domain\\models\\labtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B060B5-906B-4A5B-890C-8C11B6938720}|Domain\\Domain.csproj|solutionrelative:domain\\models\\labtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{206248BF-2435-41A9-AEFA-65711137B527}|Persistence\\Persistence.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\persistence\\context\\appdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{206248BF-2435-41A9-AEFA-65711137B527}|Persistence\\Persistence.csproj|solutionrelative:persistence\\context\\appdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|c:\\users\\evgen\\source\\repos\\bdlabs\\webapi\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5D802FE-9935-494C-B50C-53A89B31A60E}|WebApi\\WebApi.csproj|solutionrelative:webapi\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClientTestApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\ClientTestApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClientTestApp\\ClientTestApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerTestApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\ServerTestApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerTestApp\\ServerTestApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\DataComparerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\DataComparerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTest\\Program.cs",
+              "RelativeDocumentMoniker": "ServerTest\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTest\\Program.cs",
+              "RelativeToolTip": "ServerTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:07:23.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTest\\Program.cs",
+              "RelativeDocumentMoniker": "ClientTest\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTest\\Program.cs",
+              "RelativeToolTip": "ClientTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:36:54.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqlManager.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\SqlManager.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\SQL\\SqlManager.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\SqlManager.cs",
+              "RelativeToolTip": "Application\\Common\\SQL\\SqlManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAywBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:26:04.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T11:31:18.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteLabCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\DeleteLabCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabCommands\\DeleteLabCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\DeleteLabCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabCommands\\DeleteLabCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:40:16.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateLabCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\CreateLabCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabCommands\\CreateLabCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\CreateLabCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabCommands\\CreateLabCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:39:48.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlServer.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\SqlServer.cs",
+              "RelativeDocumentMoniker": "TcpSqlServer\\SqlServer.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\SqlServer.cs",
+              "RelativeToolTip": "TcpSqlServer\\SqlServer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:30:01.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlClient.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\SqlClient.cs",
+              "RelativeDocumentMoniker": "Application\\SqlClient.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\SqlClient.cs",
+              "RelativeToolTip": "Application\\SqlClient.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:32:03.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlServerClientTests.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\SqlServerClientTests.cs",
+              "RelativeDocumentMoniker": "Tests\\SqlServerClientTests.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\SqlServerClientTests.cs",
+              "RelativeToolTip": "Tests\\SqlServerClientTests.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:47:02.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DataComparerTests.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\DataComparerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\DataComparerTests.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Tests\\DataComparerTests.cs",
+              "RelativeToolTip": "Tests\\DataComparerTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:10:07.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:28:17.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlQueryController.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Controllers\\SqlQueryController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\SqlQueryController.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Controllers\\SqlQueryController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\SqlQueryController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIAwwCsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:28:20.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\Program.cs",
+              "RelativeDocumentMoniker": "TcpSqlServer\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\Program.cs",
+              "RelativeToolTip": "TcpSqlServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:29:01.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T17:06:55.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataComparer.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\Utils\\DataComparer.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\SQL\\Utils\\DataComparer.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\Utils\\DataComparer.cs",
+              "RelativeToolTip": "Application\\Common\\SQL\\Utils\\DataComparer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:37:52.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TcpSqlServer.csproj",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\TcpSqlServer.csproj",
+              "RelativeDocumentMoniker": "TcpSqlServer\\TcpSqlServer.csproj",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\TcpSqlServer\\TcpSqlServer.csproj",
+              "RelativeToolTip": "TcpSqlServer\\TcpSqlServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T11:45:46.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteTaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\DeleteTaskCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\TaskCommands\\DeleteTaskCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\DeleteTaskCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\TaskCommands\\DeleteTaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:45:56.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:58:34.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateTaskCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\UpdateTaskCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\Handlers\\UpdateTaskCommandHandler.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\UpdateTaskCommandHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\Handlers\\UpdateTaskCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:44:39.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateTaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\CreateTaskCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\TaskCommands\\CreateTaskCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\CreateTaskCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\TaskCommands\\CreateTaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:45:19.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\Program.cs",
+              "RelativeDocumentMoniker": "ClientTestApp\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\Program.cs",
+              "RelativeToolTip": "ClientTestApp\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:18:30.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClientTestApp.csproj",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\ClientTestApp.csproj",
+              "RelativeDocumentMoniker": "ClientTestApp\\ClientTestApp.csproj",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ClientTestApp\\ClientTestApp.csproj",
+              "RelativeToolTip": "ClientTestApp\\ClientTestApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T15:24:54.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\Program.cs",
+              "RelativeDocumentMoniker": "ServerTestApp\\Program.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\Program.cs",
+              "RelativeToolTip": "ServerTestApp\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAApwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:20:08.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ServerTestApp.csproj",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\ServerTestApp.csproj",
+              "RelativeDocumentMoniker": "ServerTestApp\\ServerTestApp.csproj",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\ServerTestApp\\ServerTestApp.csproj",
+              "RelativeToolTip": "ServerTestApp\\ServerTestApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T15:25:04.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateTaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\UpdateTaskCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\TaskCommands\\UpdateTaskCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskCommands\\UpdateTaskCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\TaskCommands\\UpdateTaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:46:16.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAllTasksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskQueries\\GetAllTasksQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\TaskQueries\\GetAllTasksQuery.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskQueries\\GetAllTasksQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\TaskQueries\\GetAllTasksQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:46:30.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetTaskByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskQueries\\GetTaskByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\TaskQueries\\GetTaskByIdQuery.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\TaskQueries\\GetTaskByIdQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\TaskQueries\\GetTaskByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:46:55.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetTaskByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\GetTaskByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\Handlers\\GetTaskByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\GetTaskByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\Handlers\\GetTaskByIdQueryHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:44:03.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateTaskCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\CreateTaskCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\Handlers\\CreateTaskCommandHandler.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\CreateTaskCommandHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\Handlers\\CreateTaskCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:42:38.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeleteTaskCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\DeleteTaskCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Tasks\\Handlers\\DeleteTaskCommandHandler.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Tasks\\Handlers\\DeleteTaskCommandHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Tasks\\Handlers\\DeleteTaskCommandHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:42:37.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LabHandler.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabHandler.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabHandler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:42:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetLabByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabQueries\\GetLabByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabQueries\\GetLabByIdQuery.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabQueries\\GetLabByIdQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabQueries\\GetLabByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:41:45.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetAllLabsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabQueries\\GetAllLabsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabQueries\\GetAllLabsQuery.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabQueries\\GetAllLabsQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabQueries\\GetAllLabsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:41:33.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateLabCommand.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\UpdateLabCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Labs\\LabCommands\\UpdateLabCommand.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\CQRS\\Labs\\LabCommands\\UpdateLabCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\Labs\\LabCommands\\UpdateLabCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:41:02.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompareResponse.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\ResponseModels\\CompareResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\SQL\\ResponseModels\\CompareResponse.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\ResponseModels\\CompareResponse.cs",
+              "RelativeToolTip": "Application\\Common\\SQL\\ResponseModels\\CompareResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:39:23.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SqlValidateResponse.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\ResponseModels\\SqlValidateResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\SQL\\ResponseModels\\SqlValidateResponse.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\Common\\SQL\\ResponseModels\\SqlValidateResponse.cs",
+              "RelativeToolTip": "Application\\Common\\SQL\\ResponseModels\\SqlValidateResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:38:41.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\DTO\\TaskDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\TaskDto.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\DTO\\TaskDto.cs",
+              "RelativeToolTip": "Application\\DTO\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:37:04.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LabDto.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\DTO\\LabDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\LabDto.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Application\\DTO\\LabDto.cs",
+              "RelativeToolTip": "Application\\DTO\\LabDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:36:44.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppDbContext.cs.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Persistence\\Context\\AppDbContext.cs.cs",
+              "RelativeDocumentMoniker": "Persistence\\Context\\AppDbContext.cs.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Persistence\\Context\\AppDbContext.cs.cs",
+              "RelativeToolTip": "Persistence\\Context\\AppDbContext.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:34:06.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LabTask.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Domain\\Models\\LabTask.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\LabTask.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Domain\\Models\\LabTask.cs",
+              "RelativeToolTip": "Domain\\Models\\LabTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:33:08.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Lab.cs",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Domain\\Models\\Lab.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Lab.cs",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\Domain\\Models\\Lab.cs",
+              "RelativeToolTip": "Domain\\Models\\Lab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:33:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Index.html",
+              "RelativeDocumentMoniker": "WebApi\\Index.html",
+              "ToolTip": "C:\\Users\\evgen\\source\\repos\\BdLabs\\WebApi\\Index.html",
+              "RelativeToolTip": "WebApi\\Index.html",
+              "ViewState": "AgIAACIBAAAAAAAAAAAQwD0BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-08T17:39:28.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

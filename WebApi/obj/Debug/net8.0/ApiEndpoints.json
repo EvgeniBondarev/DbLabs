@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.SqlQueryController",
+    "Method": "CompareSql",
+    "RelativePath": "api/sql-query/compare-sql",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Controllers.CompareSqlRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.SqlQueryController",
+    "Method": "ValidateSqlSyntax",
+    "RelativePath": "api/sql-query/validate-sql",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApi.Controllers.SqlRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TaskController",
+    "Method": "GetTaskById",
+    "RelativePath": "api/task/get-task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
